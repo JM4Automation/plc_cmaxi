@@ -1,5 +1,5 @@
 #######################################
-# Syntax Coloring Map For jm4a_cmini
+# Syntax Coloring Map For jm4a_cmaxi
 #######################################
 
 #######################################
@@ -10,7 +10,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-jm4a_cmini KEYWORD1
+jm4a_cmaxi KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
