@@ -1,0 +1,6 @@
+#ifndef jm4a_cmaxi_h 
+#define jm4a_cmaxi_h 
+#include "Arduino.h" 
+#include "jm4a_02.h" 
+class jm4a_cmaxi { private: void F27(); void F23(); void F31(); void F28(uint8_t f); void F29(uint8_t f); void F30(uint8_t f); void F55(uint8_t f); void F33(char* f, uint8_t ff); void F34(char* f, uint8_t ff); void F39(char* f, uint8_t ff); void F40(uint8_t f,uint8_t ff); void F41(uint8_t f,uint8_t ff); void F24(char* f, uint8_t ff); void F38(uint8_t f,float ff); void F36(uint8_t f, float ff); void F37(uint8_t f, float ff); void F26(); void F35(); void F25(int* f, uint8_t ff); void F91(uint8_t p); void F32(F56 f); void F45(uint8_t f, uint32_t ff); void F46(uint8_t f, uint32_t ff); void F47(uint8_t f, uint32_t ff); void F42(uint8_t f, uint32_t ff); void F43(uint8_t f, uint32_t ff); void F44(uint8_t f, uint32_t ff); public: jm4a_cmaxi(); void begin(unsigned long f); void dataTransfer(); void setAnalogInput(uint8_t f, uint8_t ff); void setAnalogOutput(uint8_t f); void noInputs(bool r); void noOutputs(bool w); void setID(char f); void setConfirmation(bool f); void enableMFDPO(uint8_t f,uint32_t ff); void enableOMDPO(uint8_t f, uint8_t ff); }; 
+#endif
